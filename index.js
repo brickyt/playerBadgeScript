@@ -111,7 +111,7 @@ window.addEventListener("load", function () {
             "opacity": 0.9,
             "position": "absolute",
             "visibility": "hidden",
-            "transform": "translate(-30%, -175%) scale(0.65)"
+            "transform": "translate(-30%, -175%) scale(0.85)"
         });
 
     }

@@ -1,3 +1,7 @@
+## Script to call in MFL
+
+<script src="https://brickyt.github.io/playerBadgeScript/index.js"></script>
+
 ## Adding new club with image and tooltip image
 
  - Let the club name be `AAA`

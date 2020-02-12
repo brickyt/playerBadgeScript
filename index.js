@@ -120,7 +120,7 @@ window.addEventListener("load", function () {
         item = $(item);
         let content = item.html().split(' ');
         let club = content[content.length - 2];
-        if (cMap[club] && !item.html().includes(`${club}-tips`)) {
+        if (cMap[club] && !item.parent().html().includes(`${club}-tips`)) {
             let image = images[cMap[club].toLowerCase()];
             let imageHTML = $(`<div class="${club}-tips" style="display:inline-block;" > <img  style="margin-left:4px; margin-top:4px" src="data:image/png;base64, ${image}" /></div>`);
             item.parent().append(imageHTML);

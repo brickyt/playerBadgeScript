@@ -108,7 +108,7 @@ window.addEventListener("load", function () {
             "pointer-events": "none",
             "font": "sans-serif",
             "font-size": "11px",
-            "opacity": 0.9,
+            "opacity": 1,
             "position": "absolute",
             "visibility": "hidden",
             "transform": "translate(-30%, -175%) scale(1)"

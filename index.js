@@ -116,7 +116,7 @@ window.addEventListener("load", function () {
 
     }
 
-    $('.player>a, .player>span>a').each((_, item) => {
+    $('.player>a, .player>span>a, td>a.position_qb, td>a.position_rb, td>a.position_wr, td>a.position_te').each((_, item) => {
         item = $(item);
         let content = item.html().split(' ');
         let club = content[content.length - 2];

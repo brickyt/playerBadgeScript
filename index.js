@@ -116,11 +116,11 @@ window.addEventListener("load", function () {
 
     }
 
-    $('.player>a, .player>span>a').each((index, item) => {
+    $('.player>a, .player>span>a').each((_, item) => {
         item = $(item);
         let content = item.html().split(' ');
         let club = content[content.length - 2];
-        if (cMap[club]) {
+        if (cMap[club] && !item.html().includes(`${club}-tips`)) {
             let image = images[cMap[club].toLowerCase()];
             let imageHTML = $(`<div class="${club}-tips" style="display:inline-block;" > <img  style="margin-left:4px; margin-top:4px" src="data:image/png;base64, ${image}" /></div>`);
             item.parent().append(imageHTML);

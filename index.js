@@ -66,7 +66,7 @@ window.addEventListener("load", function () {
         "NOS": "PSYCHIC",
         "NYG": "DRAGON",
         "NYJ": "STEEL",
-        "LVR": "FIGHT",
+        "LVR": "FIGHTING",
         "PHI": "FLYING",
         "PIT": "STEEL",
         "SEA": "WATER",
